@@ -1,4 +1,5 @@
 import { Modal } from 'flowbite-ts-test'
+import type { RotationItems } from 'flowbite-ts-test'
 
 const $buttonElement: HTMLElement = document.querySelector('#button');
 const $modalElement: HTMLElement = document.querySelector('#modal');

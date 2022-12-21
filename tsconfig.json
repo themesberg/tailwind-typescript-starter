@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
       "lib": ["dom", "es2015"],
-      "outDir": "./lib/cjs/",
+      "outDir": "./dist/",
       "sourceMap": true,
       "declaration": true,
       "noImplicitAny": true,
-      "module": "commonjs",
-      "target": "es5",
-      "jsx": "react",
+      "module": "es2015",
+      "target": "es2015",
       "allowJs": true,
       "moduleResolution": "node"
   },
