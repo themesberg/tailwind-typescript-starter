@@ -31,6 +31,6 @@
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "flowbite-ts-test": "^1.6.8"
+    "flowbite-ts-test": "^1.6.9"
   }
 }
