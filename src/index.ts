@@ -1,3 +1,5 @@
-import './accordion'
-import './carousel'
-import './modal'
+import './accordion';
+import './carousel';
+import './collapse';
+import './dial';
+import './modal';
