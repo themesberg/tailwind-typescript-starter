@@ -1,6 +1,6 @@
 # Tailwind CSS + TypeScript + Flowbite Starter
 
-This is a starter repository that you can use to see examples and get started with working with the Tailwind CSS, Flowbite, and TypeScript stack. Read this [guide on Flowbite to learn more](https://flowbite.com/docs/getting-started/typescript/).
+This is a starter repository that you can use to see examples and get started with working with the Tailwind CSS, Flowbite components, and TypeScript. Read this [guide on Flowbite to learn more](https://flowbite.com/docs/getting-started/typescript/) on how this repository works.
 
 ## Getting started
 
