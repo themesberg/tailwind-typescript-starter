@@ -2,10 +2,10 @@ import { Dismiss } from "flowbite-ts-test";
 import type { DismissOptions, DismissInterface } from "flowbite-ts-test";
 
 // target element that will be dismissed
-const $targetEl = document.getElementById('targetElement');
+const $targetEl: HTMLElement = document.getElementById('targetElement');
 
 // optional trigger element
-const $triggerEl = document.getElementById('triggerElement');
+const $triggerEl: HTMLElement = document.getElementById('triggerElement');
 
 // options object
 const options: DismissOptions = {

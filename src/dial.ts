@@ -2,13 +2,13 @@ import { Dial } from "flowbite-ts-test";
 import type { DialOptions, DialInterface } from "flowbite-ts-test";
 
 // parent element wrapping the speed dial
-const $parentEl = document.getElementById('dialParent')
+const $parentEl: HTMLElement = document.getElementById('dialParent')
 
 // the trigger element that can be clicked or hovered
-const $triggerEl = document.getElementById('dialButton');
+const $triggerEl: HTMLElement = document.getElementById('dialButton');
 
 // the content wrapping element of menu items or buttons
-const $targetEl = document.getElementById('dialContent');
+const $targetEl: HTMLElement = document.getElementById('dialContent');
 
 // options with default values
 const options: DialOptions = {
