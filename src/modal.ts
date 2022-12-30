@@ -5,7 +5,7 @@ const $buttonElement: HTMLElement = document.querySelector('#button');
 const $modalElement: HTMLElement = document.querySelector('#modal');
 
 const modalOptions: ModalOptions = {
-    // placement: 'top-right'
+    backdropClasses: 'bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-40'
 }
 
 if ($modalElement) {
