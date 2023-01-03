@@ -27,8 +27,8 @@ Open up the `index.html` file locally and you can see a list of components that 
 For example, this is the code that creates the modal component inside the `modal.ts` file:
 
 ```
-import { Modal } from 'flowbite-ts-test'
-import type { ModalOptions, ModalInterface } from 'flowbite-ts-test'
+import { Modal } from 'flowbite'
+import type { ModalOptions, ModalInterface } from 'flowbite'
 
 const $buttonElement: HTMLElement = document.querySelector('#button');
 const $modalElement: HTMLElement = document.querySelector('#modal');

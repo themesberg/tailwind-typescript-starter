@@ -1,5 +1,5 @@
-import { Tabs } from "flowbite-ts-test";
-import type { TabsOptions, TabsInterface, TabItem } from "flowbite-ts-test";
+import { Tabs } from "flowbite";
+import type { TabsOptions, TabsInterface, TabItem } from "flowbite";
 
 // create an array of objects with the id, trigger element (eg. button), and the content element
 const tabElements: TabItem[] = [

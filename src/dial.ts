@@ -1,5 +1,5 @@
-import { Dial } from "flowbite-ts-test";
-import type { DialOptions, DialInterface } from "flowbite-ts-test";
+import { Dial } from "flowbite";
+import type { DialOptions, DialInterface } from "flowbite";
 
 // parent element wrapping the speed dial
 const $parentEl: HTMLElement = document.getElementById('dialParent')

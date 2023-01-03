@@ -1,5 +1,5 @@
-import { Accordion } from "flowbite-ts-test";
-import type { AccordionOptions, AccordionItem, AccordionInterface } from "flowbite-ts-test";
+import { Accordion } from "flowbite";
+import type { AccordionOptions, AccordionItem, AccordionInterface } from "flowbite";
 
 // create an array of objects with the id, trigger element (eg. button), and the content element
 const accordionItems: AccordionItem[] = [

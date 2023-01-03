@@ -1,5 +1,5 @@
-import { Carousel } from "flowbite-ts-test";
-import type { CarouselItem, CarouselOptions, CarouselInterface } from "flowbite-ts-test";
+import { Carousel } from "flowbite";
+import type { CarouselItem, CarouselOptions, CarouselInterface } from "flowbite";
 
 const items: CarouselItem[] = [
     {
