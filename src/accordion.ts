@@ -1,5 +1,7 @@
-import { Accordion } from "flowbite";
-import type { AccordionOptions, AccordionItem, AccordionInterface } from "flowbite";
+import { Accordion } from "flowbite-2.0";
+import type { AccordionOptions, AccordionItem, AccordionInterface } from "flowbite-2.0";
+
+const accordionElement = document.getElementById('accordion-example');
 
 // create an array of objects with the id, trigger element (eg. button), and the content element
 const accordionItems: AccordionItem[] = [
@@ -47,7 +49,7 @@ if (document.querySelector('#accordion-example-heading-1')) {
     * accordionItems: array of accordion item objects
     * options: optional
     */
-    const accordion: AccordionInterface = new Accordion(accordionItems, options);
+    const accordion: AccordionInterface = new Accordion(accordionElement, accordionItems, options);
 
     // open accordion item based on id
     accordion.open('accordion-example-heading-2');

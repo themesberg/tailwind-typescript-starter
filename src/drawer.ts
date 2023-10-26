@@ -1,5 +1,5 @@
-import { Drawer } from "flowbite";
-import type { DrawerOptions, DrawerInterface } from "flowbite";
+import { Drawer } from "flowbite-2.0";
+import type { DrawerOptions, DrawerInterface } from "flowbite-2.0";
 
 // set the drawer menu element
 const $targetEl: HTMLElement = document.getElementById('drawer-js-example');

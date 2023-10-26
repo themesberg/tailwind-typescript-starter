@@ -1,5 +1,5 @@
-import { Collapse } from "flowbite";
-import type { CollapseOptions, CollapseInterface } from "flowbite";
+import { Collapse } from "flowbite-2.0";
+import type { CollapseOptions, CollapseInterface } from "flowbite-2.0";
 
 // set the target element that will be collapsed or expanded (eg. navbar menu)
 const $targetEl: HTMLElement = document.getElementById('targetEl');

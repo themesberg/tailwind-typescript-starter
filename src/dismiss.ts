@@ -1,5 +1,5 @@
-import { Dismiss } from "flowbite";
-import type { DismissOptions, DismissInterface } from "flowbite";
+import { Dismiss } from "flowbite-2.0";
+import type { DismissOptions, DismissInterface } from "flowbite-2.0";
 
 // target element that will be dismissed
 const $targetEl: HTMLElement = document.getElementById('targetElement');

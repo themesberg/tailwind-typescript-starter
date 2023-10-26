@@ -1,5 +1,5 @@
-import { Tooltip } from "flowbite";
-import type { TooltipOptions, TooltipInterface } from "flowbite";
+import { Tooltip } from "flowbite-2.0";
+import type { TooltipOptions, TooltipInterface } from "flowbite-2.0";
 
 // set the tooltip content element
 const $targetEl: HTMLElement = document.getElementById('tooltipContent');

@@ -1,5 +1,5 @@
-import { Dropdown } from "flowbite";
-import type { DropdownOptions, DropdownInterface } from "flowbite";
+import { Dropdown } from "flowbite-2.0";
+import type { DropdownOptions, DropdownInterface } from "flowbite-2.0";
 
 // set the dropdown menu element
 const $targetEl: HTMLElement = document.getElementById('dropdownMenu');

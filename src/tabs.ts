@@ -1,5 +1,7 @@
-import { Tabs } from "flowbite";
-import type { TabsOptions, TabsInterface, TabItem } from "flowbite";
+import { Tabs } from "flowbite-2.0";
+import type { TabsOptions, TabsInterface, TabItem } from "flowbite-2.0";
+
+const tabsElement = document.getElementById('tabs-example');
 
 // create an array of objects with the id, trigger element (eg. button), and the content element
 const tabElements: TabItem[] = [
@@ -40,7 +42,7 @@ if (document.querySelector('#profile-tab-example')) {
     * tabElements: array of tab objects
     * options: optional
     */
-    const tabs: TabsInterface = new Tabs(tabElements, options);
+    const tabs: TabsInterface = new Tabs(tabsElement, tabElements, options);
 
     // open tab item based on id
     tabs.show('contacts');

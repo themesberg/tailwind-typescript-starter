@@ -1,5 +1,5 @@
-import { Modal } from 'flowbite'
-import type { ModalOptions, ModalInterface } from 'flowbite'
+import { Modal } from 'flowbite-2.0'
+import type { ModalOptions, ModalInterface } from 'flowbite-2.0'
 
 const $buttonElement: HTMLElement = document.querySelector('#button');
 const $modalElement: HTMLElement = document.querySelector('#modal');
