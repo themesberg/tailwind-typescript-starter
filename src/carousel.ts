@@ -1,6 +1,8 @@
 import { Carousel } from "flowbite";
 import type { CarouselItem, CarouselOptions, CarouselInterface } from "flowbite";
 
+const carouselElement = document.getElementById('carousel-example');
+
 const items: CarouselItem[] = [
     {
         position: 0,
@@ -60,7 +62,7 @@ const options: CarouselOptions = {
 };
 
 if (document.getElementById('carousel-item-1')) {
-    const carousel: CarouselInterface = new Carousel(items, options);
+    const carousel: CarouselInterface = new Carousel(carouselElement, items, options);
 
     carousel.cycle()
 
