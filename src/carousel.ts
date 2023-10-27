@@ -1,5 +1,5 @@
-import { Carousel } from "flowbite-2.0";
-import type { CarouselItem, CarouselOptions, CarouselInterface } from "flowbite-2.0";
+import { Carousel } from "flowbite";
+import type { CarouselItem, CarouselOptions, CarouselInterface } from "flowbite";
 
 const carouselElement = document.getElementById('carousel-example');
 

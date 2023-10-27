@@ -1,5 +1,5 @@
-import { Popover } from "flowbite-2.0";
-import type { PopoverOptions, PopoverInterface } from "flowbite-2.0";
+import { Popover } from "flowbite";
+import type { PopoverOptions, PopoverInterface } from "flowbite";
 
 // set the popover content element
 const $targetEl: HTMLElement = document.getElementById('popoverContent');

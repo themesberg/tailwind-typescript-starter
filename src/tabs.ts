@@ -1,5 +1,5 @@
-import { Tabs } from "flowbite-2.0";
-import type { TabsOptions, TabsInterface, TabItem } from "flowbite-2.0";
+import { Tabs } from "flowbite";
+import type { TabsOptions, TabsInterface, TabItem } from "flowbite";
 
 const tabsElement = document.getElementById('tabs-example');
 
