@@ -9,3 +9,4 @@ import './popover';
 import './tabs';
 import './modal';
 import './tooltip';
+import './input-counter';

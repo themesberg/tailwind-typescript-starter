@@ -1,5 +1,5 @@
-import { Accordion } from "flowbite";
-import type { AccordionOptions, AccordionItem, AccordionInterface } from "flowbite";
+import { Accordion } from 'flowbite';
+import type { AccordionOptions, AccordionItem, AccordionInterface } from 'flowbite';
 
 const accordionElement = document.getElementById('accordion-example');
 
