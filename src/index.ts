@@ -10,3 +10,5 @@ import './tabs';
 import './modal';
 import './tooltip';
 import './input-counter';
+import './clipboard';
+import './datepicker';
